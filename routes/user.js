@@ -11,7 +11,7 @@ router.post("/signin", (req, res) => {
 
 // list all purchased courses
 router.get("/purchases", (req, res) => {
-  return res.send("this is /user/purchases");
+  return res.send("here are all your purchases");
 });
 
 export default router;

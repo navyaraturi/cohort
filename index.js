@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { userRouter, courseRouter } from "./routes";
+import { adminRouter, courseRouter, userRouter } from "./routes";
 
 const app = express();
 app.use(express.json());
@@ -10,13 +10,14 @@ app.use(
   })
 );
 
-// Router
-app.use("/user", userRouter);
-app.use("/course", courseRouter);
-
 app.get("/", (req, res) => {
-  return res.send("Cohort app");
+  return res.send("Cohort api service active");
 });
+
+// Router
+app.use("/api/v1/user", userRouter);
+app.use("/api/v1/admin", adminRouter);
+app.use("/api/v1/course", courseRouter);
 
 app.listen(Bun.env.PORT, () => {
   console.log(`Server listening on ${Bun.env.PORT}`);
