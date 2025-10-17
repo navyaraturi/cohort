@@ -1,4 +1,6 @@
 import express from "express";
+import { Admin } from "../db";
+
 const router = express.Router();
 
 router.post("/signup", (req, res) => {
