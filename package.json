@@ -2,7 +2,8 @@
   "name": "cohort",
   "version": "1.0.0",
   "description": "Course selling app",
-  "main": "main.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "bun --watch index",
     "start": "bun index"

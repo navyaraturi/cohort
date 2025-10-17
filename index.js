@@ -13,11 +13,17 @@ app.get("/", (req, res) => {
   return res.send("Cohort app");
 });
 
-app.post("/signup", (req, res) => {});
-app.post("/signin", (req, res) => {});
-app.post("/purchase-course", (req, res) => {});
+app.post("/user/signup", (req, res) => {});
+app.post("/user/signin", (req, res) => {});
+
+// list all purchased courses
+app.get("/user/purchases", (req, res) => {});
+
+// to purchase a new course
+app.post("/course/purchase", (req, res) => {});
+
+// list of all available courses
 app.get("/courses", (req, res) => {});
-app.get("/purchased-courses", (req, res) => {});
 
 app.listen(Bun.env.PORT, () => {
   console.log(`Server listening on ${Bun.env.PORT}`);
