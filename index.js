@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import { userRouter, courseRouter } from "./routes";
 
 const app = express();
 app.use(express.json());
@@ -9,21 +10,13 @@ app.use(
   })
 );
 
+// Router
+app.use("/user", userRouter);
+app.use("/course", courseRouter);
+
 app.get("/", (req, res) => {
   return res.send("Cohort app");
 });
-
-app.post("/user/signup", (req, res) => {});
-app.post("/user/signin", (req, res) => {});
-
-// list all purchased courses
-app.get("/user/purchases", (req, res) => {});
-
-// to purchase a new course
-app.post("/course/purchase", (req, res) => {});
-
-// list of all available courses
-app.get("/courses", (req, res) => {});
 
 app.listen(Bun.env.PORT, () => {
   console.log(`Server listening on ${Bun.env.PORT}`);
