@@ -1,6 +1,5 @@
 import mongoose, { Schema, model } from "mongoose";
 
-mongoose.connect(Bun.env.MONGODB_CONNECTION_STRING);
 
 const ObjectId = Schema.Types.ObjectId;
 
