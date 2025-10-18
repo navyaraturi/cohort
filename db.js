@@ -1,6 +1,6 @@
 import mongoose, { Schema, model } from "mongoose";
 
-mongoose.connect(BUN.env.MONGODB_CONNECTION_STRING); // TODO: Add connection string
+mongoose.connect(Bun.env.MONGODB_CONNECTION_STRING);
 
 const ObjectId = Schema.Types.ObjectId;
 
@@ -35,6 +35,7 @@ const courseSchema = new Schema({
     unique: true,
   },
 });
+
 const purchaseSchema = new Schema({
   userId: {
     type: ObjectId,
@@ -51,4 +52,4 @@ const Purchases = model("purchases", purchaseSchema);
 const Course = model("courses", courseSchema);
 const User = model("users", userSchema);
 
-export default { Admin, Course, Purchases, User };
+export { Admin, Course, Purchases, User };
