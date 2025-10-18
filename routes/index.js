@@ -1,5 +1,5 @@
-import userRouter from "./user";
-import adminRouter from "./admin";
-import courseRouter from "./course";
+import userRouter from "./user.routes";
+import adminRouter from "./admin.routes";
+import courseRouter from "./course.routes";
 
 export { adminRouter, courseRouter, userRouter };
