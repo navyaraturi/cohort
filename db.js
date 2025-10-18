@@ -2,15 +2,6 @@ import { Schema, model } from "mongoose";
 
 const ObjectId = Schema.Types.ObjectId;
 
-const userSchema = new Schema({
-  email: {
-    type: String,
-    unique: true,
-  },
-  name: String,
-  password: String,
-});
-
 const adminSchema = new Schema({
   email: {
     type: String,
@@ -45,9 +36,18 @@ const purchaseSchema = new Schema({
   },
 });
 
+const userSchema = new Schema({
+  email: {
+    type: String,
+    unique: true,
+  },
+  name: String,
+  password: String,
+});
+
 const Admin = model("admin", adminSchema);
-const Purchases = model("purchases", purchaseSchema);
 const Course = model("courses", courseSchema);
+const Purchases = model("purchases", purchaseSchema);
 const User = model("users", userSchema);
 
 export { Admin, Course, Purchases, User };

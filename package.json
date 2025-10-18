@@ -8,7 +8,10 @@
     "dev": "bun --watch index",
     "start": "bun index"
   },
-  "keywords": [],
+  "keywords": [
+    "cohort",
+    "course selling app"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
