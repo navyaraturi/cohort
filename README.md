@@ -15,3 +15,4 @@ This is the new repo for a new course selling app
 [X] Testing
 [X] Build the app prototype excalidraw
 [X] Planning for the app
+[X] finding host to deploy our bun+express api

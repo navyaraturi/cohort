@@ -1,0 +1,50 @@
+
+2025-10-23T08:37:13.732491015Z stderr F 
+2025-10-23T08:37:13.732489442Z stderr F         ^
+2025-10-23T08:37:13.73248495Z stderr F   throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+2025-10-23T08:37:13.732456133Z stderr F node:internal/modules/package_json_reader:266
+2025-10-23T08:37:12.424620017Z stdout F [2025-10-23T08:37:12Z INFO ] Starting container entrypoint...
+2025-10-23T08:37:12.424616768Z stdout F [2025-10-23T08:37:12Z INFO ] Successfully fetched environment variables.
+2025-10-23T08:37:12.424586343Z stdout F [2025-10-23T08:37:12Z INFO ] Securely fetching environment variables...
+2025-10-23T08:36:45.754292253Z stdout F [2025-10-23T08:36:45Z INFO ] Process terminated with exit code 1
+2025-10-23T08:36:45.661066839Z stderr F Node.js v22.20.0
+2025-10-23T08:36:45.661064962Z stderr F 
+2025-10-23T08:36:45.661062648Z stderr F }
+2025-10-23T08:36:45.661060628Z stderr F   code: 'ERR_MODULE_NOT_FOUND'
+2025-10-23T08:36:45.661058401Z stderr F     at ModuleJob._link (node:internal/modules/esm/module_job:183:49) {
+2025-10-23T08:36:45.661056216Z stderr F     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:310:38)
+2025-10-23T08:36:45.661053748Z stderr F     at ModuleLoader.resolve (node:internal/modules/esm/loader:708:38)
+2025-10-23T08:36:45.661050948Z stderr F     at #cachedDefaultResolve (node:internal/modules/esm/loader:731:20)
+2025-10-23T08:36:45.661049346Z stderr F     at defaultResolve (node:internal/modules/esm/resolve:983:11)
+2025-10-23T08:36:45.661047939Z stderr F     at moduleResolve (node:internal/modules/esm/resolve:853:18)
+2025-10-23T08:36:45.661046457Z stderr F     at packageResolve (node:internal/modules/esm/resolve:767:81)
+2025-10-23T08:36:45.661044965Z stderr F     at Object.getPackageJSONURL (node:internal/modules/package_json_reader:266:9)
+2025-10-23T08:36:45.661042489Z stderr F Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'express' imported from /workspace/index.js
+2025-10-23T08:36:45.661039583Z stderr F 
+2025-10-23T08:36:45.661037051Z stderr F         ^
+2025-10-23T08:36:45.661033267Z stderr F   throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+2025-10-23T08:36:45.661010073Z stderr F node:internal/modules/package_json_reader:266
+2025-10-23T08:36:44.426384124Z stdout F [2025-10-23T08:36:44Z INFO ] Starting container entrypoint...
+2025-10-23T08:36:44.426381411Z stdout F [2025-10-23T08:36:44Z INFO ] Successfully fetched environment variables.
+2025-10-23T08:36:44.426354164Z stdout F [2025-10-23T08:36:44Z INFO ] Securely fetching environment variables...
+2025-10-23T08:36:30.650574768Z stdout F [2025-10-23T08:36:30Z INFO ] Process terminated with exit code 1
+2025-10-23T08:36:30.560100451Z stderr F Node.js v22.20.0
+2025-10-23T08:36:30.560099452Z stderr F 
+2025-10-23T08:36:30.560098514Z stderr F }
+2025-10-23T08:36:30.560097267Z stderr F   code: 'ERR_MODULE_NOT_FOUND'
+2025-10-23T08:36:30.560096115Z stderr F     at ModuleJob._link (node:internal/modules/esm/module_job:183:49) {
+2025-10-23T08:36:30.560095142Z stderr F     at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:310:38)
+2025-10-23T08:36:30.560093999Z stderr F     at ModuleLoader.resolve (node:internal/modules/esm/loader:708:38)
+2025-10-23T08:36:30.560092885Z stderr F     at #cachedDefaultResolve (node:internal/modules/esm/loader:731:20)
+2025-10-23T08:36:30.560091876Z stderr F     at defaultResolve (node:internal/modules/esm/resolve:983:11)
+2025-10-23T08:36:30.560090911Z stderr F     at moduleResolve (node:internal/modules/esm/resolve:853:18)
+2025-10-23T08:36:30.560089741Z stderr F     at packageResolve (node:internal/modules/esm/resolve:767:81)
+2025-10-23T08:36:30.560088421Z stderr F     at Object.getPackageJSONURL (node:internal/modules/package_json_reader:266:9)
+2025-10-23T08:36:30.560086406Z stderr F Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'express' imported from /workspace/index.js
+2025-10-23T08:36:30.560084826Z stderr F 
+2025-10-23T08:36:30.560083709Z stderr F         ^
+2025-10-23T08:36:30.560081939Z stderr F   throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+2025-10-23T08:36:30.560068272Z stderr F node:internal/modules/package_json_reader:266
+2025-10-23T08:36:29.057426636Z stdout F [2025-10-23T08:36:29Z INFO ] Starting container entrypoint...
+2025-10-23T08:36:29.057424949Z stdout F [2025-10-23T08:36:29Z INFO ] Successfully fetched environment variables.
+2025-10-23T08:36:29.057402416Z stdout F [2025-10-23T08:36:29Z INFO ] Securely fetching environment variables...
