@@ -13,7 +13,7 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  return res.send("Cohort api service active");
+  return res.send("Cohort api service is active");
 });
 
 // Router
